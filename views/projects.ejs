@@ -1,31 +1,85 @@
 <%- include('partials/header') %>
 
-<h1 class="mb-4">My Projects</h1>
+<section class="projects-section">
 
-<div class="row">
-  <div class="col-md-6 mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">Portfolio Website</h5>
-        <p class="card-text">
-          A responsive portfolio website created using
-          HTML and CSS.
-        </p>
+  <h1 class="text-center mb-4">My Projects</h1>
+
+  <p class="text-center lead mb-5">
+    Here are some projects that demonstrate my
+    programming and web development skills.
+  </p>
+
+  <div class="row">
+
+    <!-- Project 1 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fas fa-laptop-code text-primary"></i>
+            HTML & CSS Portfolio
+          </h5>
+
+          <p class="card-text">
+            A responsive personal portfolio website
+            created using HTML and CSS. The website
+            includes multiple pages, navigation,
+            and layouts for different screen sizes.
+          </p>
+
+          <p>
+            <strong>Technologies:</strong>
+            HTML, CSS
+          </p>
+
+          <a href="https://github.com/zisong366"
+             class="btn btn-outline-primary"
+             target="_blank"
+             rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+            View GitHub
+          </a>
+        </div>
+
       </div>
     </div>
-  </div>
 
-  <div class="col-md-6 mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">ExpressJS Portfolio</h5>
-        <p class="card-text">
-          A personal portfolio built using Node.js,
-          ExpressJS, EJS, and Bootstrap.
-        </p>
+    <!-- Project 2 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fas fa-code text-primary"></i>
+            ExpressJS Portfolio
+          </h5>
+
+          <p class="card-text">
+            A portfolio website developed using
+            Node.js, ExpressJS, EJS templates,
+            Bootstrap, and Font Awesome.
+          </p>
+
+          <p>
+            <strong>Technologies:</strong>
+            Node.js, ExpressJS, EJS, Bootstrap
+          </p>
+
+          <a href="https://github.com/zisong366/INFR3120U-Assignment-02"
+             class="btn btn-outline-primary"
+             target="_blank"
+             rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+            View GitHub
+          </a>
+        </div>
+
       </div>
     </div>
+
   </div>
-</div>
+
+</section>
 
 <%- include('partials/footer') %>

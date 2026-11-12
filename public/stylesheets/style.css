@@ -141,3 +141,41 @@ footer a:hover {
     font-size: 120px;
   }
 }
+
+.projects-section {
+  padding: 40px 0;
+}
+
+.projects-section .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.projects-section .card-body {
+  padding: 25px;
+}
+
+.projects-section .card-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.projects-section .card-text {
+  color: #555;
+  line-height: 1.7;
+}
+
+.projects-section .btn {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 20px 10px;
+  }
+
+  .projects-section .card-body {
+    padding: 20px;
+  }
+}
