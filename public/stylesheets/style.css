@@ -179,3 +179,32 @@ footer a:hover {
     padding: 20px;
   }
 }
+
+.contact-section {
+  padding: 40px 0;
+}
+
+.contact-section form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-section .form-label {
+  font-weight:bold;
+}
+
+.contact-section .btn {
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .contact-section {
+    padding: 20px 10px;
+  }
+
+  .contact-section form {
+    padding: 20px;
+  }
+}
