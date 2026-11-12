@@ -35,34 +35,35 @@ The form uses an ExpressJS POST route to process submissions and display a confi
 
 Note: This is a demonstration form. Messages are not sent by email or stored in a database.
 
-### Project Structure
 
-INFR3120-Assignment-02/
-|--bin/
-|   --www
-|--public/
-|   |--images/
-|   |--javascripts/
-|    --stylesheets/
-|       --style.css
-|--routes/
-|   |--index.js
-|    --users.js
-|--views/
-|   |--partials/
-|   |   |--header.ejs
-|   |    --footer.ejs
-|   |--index.ejs
-|   |--about.ejs
-|   |--projects.ejs
-|   |--contact.ejs
-|   |--contact-success.ejs
-|    --error.ejs
-|--app.js
-|--package.json
-|--package-lock.json
-|--.gitignore
- --README.md
+## Project Structure
+
+INFR3120U-Assignment-02/
+├── bin/
+│   └── www
+├── public/
+│   ├── images/
+│   ├── javascripts/
+│   └── stylesheets/
+│       └── style.css
+├── routes/
+│   ├── index.js
+│   └── users.js
+├── views/
+│   ├── partials/
+│   │   ├── header.ejs
+│   │   └── footer.ejs
+│   ├── index.ejs
+│   ├── about.ejs
+│   ├── projects.ejs
+│   ├── contact.ejs
+│   ├── contact-success.ejs
+│   └── error.ejs
+├── app.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
 
 ## Installation and Setup
 
