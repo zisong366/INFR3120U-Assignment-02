@@ -74,16 +74,19 @@ git clone https://github.com/zisong366/INFR3120U-Assignment-02.git
 ### 2. Navigate to the project directory
 
 -- Powershell
+
 -cd INFR3120U-Assignment-02
 
 ### 3. Install dependencies
 
 -- Powershell
+
 -npm install
 
 ### 4. Start the application
 
 -- Powershell
+
 -npm start
 
 ### 5. Open the website
