@@ -38,31 +38,31 @@ Note: This is a demonstration form. Messages are not sent by email or stored in 
 ### Project Structure
 
 INFR3120-Assignment-02/
-|-- bin/
-|   -- www
-|-- public/
+|--bin/
+|   --www
+|--public/
 |   |--images/
-|   |-- javascripts/
-|    -- stylesheets/
-|       -- style.css
-|-- routes/
-|   |-- index.js
-|    -- users.js
-|-- views/
-|   |-- partials/
-|   |   |-- header.ejs
-|   |    -- footer.ejs
-|   |-- index.ejs
-|   |-- about.ejs
-|   |-- projects.ejs
-|   |-- contact.ejs
-|   |-- contact-success.ejs
-|    -- error.ejs
-|-- app.js
-|-- package.json
-|-- package-lock.json
-|-- .gitignore
- -- README.md
+|   |--javascripts/
+|    --stylesheets/
+|       --style.css
+|--routes/
+|   |--index.js
+|    --users.js
+|--views/
+|   |--partials/
+|   |   |--header.ejs
+|   |    --footer.ejs
+|   |--index.ejs
+|   |--about.ejs
+|   |--projects.ejs
+|   |--contact.ejs
+|   |--contact-success.ejs
+|    --error.ejs
+|--app.js
+|--package.json
+|--package-lock.json
+|--.gitignore
+ --README.md
 
 ## Installation and Setup
 
@@ -74,17 +74,17 @@ git clone https://github.com/zisong366/INFR3120U-Assignment-02.git
 ### 2. Navigate to the project directory
 
 -- Powershell
-cd INFR3120U-Assignment-02
+-cd INFR3120U-Assignment-02
 
 ### 3. Install dependencies
 
 -- Powershell
-npm install
+-npm install
 
 ### 4. Start the application
 
 -- Powershell
-npm start
+-npm start
 
 ### 5. Open the website
 
