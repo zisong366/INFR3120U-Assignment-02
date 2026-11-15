@@ -117,6 +117,41 @@ The application uses shared header and footer partials to maintain consistent na
 https://github.com/zisong366/INFR3120U-Assignment-02.git
 
 ## Cloud Deployment
+This portfolio website is deployed using Amazone Web Service (AWS) Elastic Beanstalk.
+
+The application is built using Node.js, ExpressJS, and EJS templates and is hosted on AWS.
+
+Live Website
+AWS Deployment URL: https://970085859068-6ikr5zsc.us-east-2.console.aws.amazon.com/elasticbeanstalk/environments/e-h8dfpgjmhe?region=us-east-2
+
+Deployment Details
+Cloud Provider: Amazon Web Services (AWS)
+
+Deployment Service: AWS Elastic Beanstalk
+
+Platform: Node.js
+
+Application Name: INFR3120U-Assignment-02
+
+Environment Name: INFR3120U-Assignment-02-env
+
+Application Type: Web Server Environment
+
+Deployment Package: deployment.zip
+
+Testing
+
+The deployed application can be tested using the following routes:
+
+/ — Home Page
+
+/about — About Me
+
+/projects — Projects
+
+/contact — Contact Me
+
+The contact form uses an ExpressJS POST route to process submissions and display a confirmation page. This is a demonstration form; messages are not emailed or stored in a database.
 
 ## The code source
 ### Course Materials
