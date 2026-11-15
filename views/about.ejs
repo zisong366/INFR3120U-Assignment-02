@@ -1,55 +1,85 @@
-<%- include('partials/header') %>
 
-<section class="container py-5 text-center">
+<%- include('partials/header', { title: 'About Me' }) %>
 
-  <h1 class="mb-4">About Me</h1>
+<section class="container py-5">
 
-  <img
-    src="/images/profile.jpg.avif"
-    alt="My Profile Picture"
-    class="rounded-circle mb-4"
-    style="width: 200px; height: 200px; object-fit: cover;"
-  >
+  <!-- About Me Heading -->
+  <h1 class="text-center mb-5">About Me</h1>
 
-  <h2>Hello! I'm Zisong Zhou</h2>
+  <div class="row align-items-center g-5">
 
-  <p class="lead mt-3">
-    I am a student passionate about technology,
-    web development, and learning new skills.
-    I enjoy exploring programming and building
-    creative web applications.
-  </p>
+    <!-- Profile Picture -->
+    <div class="col-md-4 text-center">
+      <img
+        src="/images/196.jpg"
+        alt="Zisong's Profile Picture"
+        class="img-fluid rounded-circle shadow"
+        style="width: 250px; height: 250px; object-fit: cover;"
+      >
+    </div>
 
-  <hr class="my-5">
-
-  <h2 class="mb-3">My Introduction Video</h2>
-
-  <p>
-    Watch my introduction video to learn more
-    about me and my interests.
-  </p>
-
-  <div class="row justify-content-center">
+    <!-- Personal Introduction -->
     <div class="col-md-8">
+      <h2>Hello! I'm Zisong.</h2>
+
+      <p class="lead">
+        I am a student interested in technology,
+        programming, and web development.
+        I enjoy learning new skills and building
+        projects that help me improve my knowledge.
+      </p>
+
+      <p>
+        Through my coursework, I have gained
+        experience with HTML, CSS, JavaScript,
+        Node.js, and ExpressJS.
+      </p>
+
+      <h3 class="mt-4">My Skills</h3>
+
+      <ul>
+        <li>HTML and CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js and ExpressJS</li>
+        <li>Git and GitHub</li>
+        <li>Responsive Web Design</li>
+      </ul>
+
+      <a href="/projects" class="btn btn-primary mt-3">
+        View My Projects
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Introduction Video -->
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-9 text-center">
+
+      <hr class="my-5">
+
+      <h2 class="mb-3">My Introduction Video</h2>
+
+      <p class="lead mb-4">
+        Watch my introduction video to learn
+        more about me and my interests!
+      </p>
 
       <video
         controls
         preload="metadata"
         class="w-100 rounded shadow"
+        style="max-width: 750px;"
       >
         <source
           src="/videos/introduction.mp4"
           type="video/mp4"
         >
-        Your browser does not support video playback.
+        Your browser does not support HTML5 video.
       </video>
 
     </div>
   </div>
-
-  <a href="/" class="btn btn-primary mt-4">
-    Back to Home
-  </a>
 
 </section>
 
