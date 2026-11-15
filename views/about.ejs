@@ -1,35 +1,56 @@
 <%- include('partials/header') %>
 
-<section class="äbout-section">
-    <h1 class="text-center mb-4">About Me</h1>
-    <div class="row-align-items-center">
-        <div class="col-md-8">
-         <h2>Hello! I'm Zisong.</h2>
-         <p>
-            I am a student interested in technology, programming, and web development. I enojoy learning new skills and building projects that help me improve my knowledge.
-         </p>
+<section class="container py-5 text-center">
 
-         <p>
-            Through my coursework, I have gained experience with HTML, CSS, JavaScript, Node.js, and ExpressJS.
-         </p>
+  <h1 class="mb-4">About Me</h1>
 
-         <h3 class="mt-4">My Skills</h3>
+  <img
+    src="/images/profile.jpg.avif"
+    alt="My Profile Picture"
+    class="rounded-circle mb-4"
+    style="width: 200px; height: 200px; object-fit: cover;"
+  >
 
-         <ul>
-            <li>HTML and CSS</li>
-            <li>JavaScript</li>
-            <li>Node.js and ExpressJS</li>
-            <li>Git and GitHub</li>
-            <li>Responsive Web Design</li>
-         </ul>
+  <h2>Hello! I'm Zisong Zhou</h2>
 
-         <a href="/projects" class="btn btn-primary mt-3">
-            View My Projects
-         </a>
+  <p class="lead mt-3">
+    I am a student passionate about technology,
+    web development, and learning new skills.
+    I enjoy exploring programming and building
+    creative web applications.
+  </p>
+
+  <hr class="my-5">
+
+  <h2 class="mb-3">My Introduction Video</h2>
+
+  <p>
+    Watch my introduction video to learn more
+    about me and my interests.
+  </p>
+
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+
+      <video
+        controls
+        preload="metadata"
+        class="w-100 rounded shadow"
+      >
+        <source
+          src="/videos/introduction.mp4"
+          type="video/mp4"
+        >
+        Your browser does not support video playback.
+      </video>
+
     </div>
-    <div class="col-md-4 text-center">
-        <i class="fas fa-user-circle fa-10x text-primary"></i>
-    </div>
-</div>
+  </div>
+
+  <a href="/" class="btn btn-primary mt-4">
+    Back to Home
+  </a>
+
 </section>
+
 <%- include('partials/footer') %>
