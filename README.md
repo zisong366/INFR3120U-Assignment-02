@@ -118,4 +118,24 @@ https://github.com/zisong366/INFR3120U-Assignment-02.git
 
 ## Cloud Deployment
 
+## The code source
+### Course Materials
+1. **INFR3120U - Web & Script Programming Lecuture Slides**
+- Course-provided examples and explanations of web development concepts.
+- HTML, CSS, JavaScript, and responsive web design concepts, where covered in the lectures.
 
+2. **INFR3120U - ExpressJS and EJS Lecture Materials**
+- ExpressJS application structure and routing. 
+- EJS templates and reusable page components.
+- Node.js server configuration.
+- Bootsrap and Font Awesome, as demonstrated in the course materials.
+
+3. **Deploying an ExpressJS Application to AWS: Step-by-Step Demo**
+- Ontario Tech University, Web & Script Programming (INFR3120U), 2025.
+- Used as the reference for deploying the ExpressJS application using AWS Elastic Beanstalk.
+- Covers application packaging, AWS configuration, networking, security groups, and deployment.
+
+### Project Implementation
+The portfolio was implemented using ExpressJS, Node.js, EJS, HTML, CSS, Bootstrap, and Font Awesome.
+
+The application includes four main pages (Home, About, Projects, and Contact), reusable EJS partials, responsive styling, and an ExpressJS POST route for the contact form.
